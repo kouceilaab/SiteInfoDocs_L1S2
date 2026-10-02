@@ -1,6 +1,6 @@
 # Projet Doc Web
 
-**Formation :** L1 MIPSI – Parcours Informatique 2025-2026 \
+**Formation :** L1 MIPSI – Parcours Informatique 2025-2026 (mai2026) \
 **Évaluation :** compte pour 1/2 de la note de contrôle continu de l'UE \
 **Travail :** en binôme
 
