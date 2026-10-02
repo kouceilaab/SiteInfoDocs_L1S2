@@ -1,0 +1,27 @@
+auteurs:
+  - BECHOUCHE Kouceila
+  - BOUKERROUCHE Sohaib
+
+accueil_sections:
+  - <a href="./index.html#qui-est-tim-berners-lee-">Qui est-il ?</a>
+  - <a href="./index.html#chronologie">Chronologie</a>
+
+vie_sections:
+  - <a href="./vie.html#enfance">Enfance</a>
+  - <a href="./vie.html#formation">Formation</a>
+  - <a href="./vie.html#au-cern">Au CERN</a>
+
+inventions_sections:
+  - <a href="./inventions.html#le-world-wide-web">Le World Wide Web</a>
+  - <a href="./inventions.html#html-http-et-url">HTML, HTTP et URL</a>
+  - <a href="./inventions.html#le-w3c">Le W3C</a>
+  - <a href="./inventions.html#le-projet-solid">Le projet SOLID</a>
+
+heritage_sections:
+  - <a href="./heritage.html#impact-mondial">Impact mondial</a>
+  - <a href="./heritage.html#distinctions">Distinctions</a>
+  - <a href="./heritage.html#combat-pour-le-web-libre">Combat pour le Web libre</a>
+
+sources_sections:
+  - <a href="./sources.html#sources-textuelles">Sources textuelles</a>
+  - <a href="./sources.html#sources-des-images">Sources images</a>

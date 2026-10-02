@@ -1,0 +1,33 @@
+#La validation xHTML1.0 ne passait pas avec markdwon donc j'ai utilisé commonmark en ajoutant l'option des identifiants automatiques et les taleaux
+
+
+
+pandoc -f commonmark+gfm_auto_identifiers+pipe_tables -t html -s 
+--template template_Bechouche_Boukkerouche.html 
+--metadata-file variables.yml 
+--metadata pagetitle="Accueil" 
+--metadata idPage="accueil" index.md -o ../HTML/index.html
+
+pandoc -f commonmark+gfm_auto_identifiers+pipe_tables -t html -s 
+--template template_Bechouche_Boukkerouche.html 
+--metadata-file variables.yml 
+--metadata pagetitle="Vie et Parcours" 
+--metadata idPage="vie" vie.md -o ../HTML/vie.html
+
+pandoc -f commonmark+gfm_auto_identifiers+pipe_tables -t html -s 
+--template template_Bechouche_Boukkerouche.html 
+--metadata-file variables.yml 
+--metadata pagetitle="Inventions" 
+--metadata idPage="inventions" inventions.md -o ../HTML/inventions.html
+
+pandoc -f commonmark+gfm_auto_identifiers+pipe_tables -t html -s 
+--template template_Bechouche_Boukkerouche.html 
+--metadata-file variables.yml 
+--metadata pagetitle="Heritage" 
+--metadata idPage="heritage" heritage.md -o ../HTML/heritage.html
+
+pandoc -f commonmark+gfm_auto_identifiers+pipe_tables -t html -s 
+--template template_Bechouche_Boukkerouche.html 
+--metadata-file variables.yml 
+--metadata pagetitle="Sources" 
+--metadata idPage="sources" sources.md -o ../HTML/sources.html
